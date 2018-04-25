@@ -1,0 +1,33 @@
+bod{
+    margin:0px;
+    padding:0px;
+}
+.well h1{
+    font-weight: bolder;
+    font-family: "Helvetica Neue";
+    font-size: 60px;
+    color: #7d65e8;
+    text-align: center;
+}
+.well img{
+    margin-left:5%;
+    margin-top:35px
+}
+.img2{
+    weight:400px;
+    height:500px;
+    background-color: #e6fff5;
+    margin-left:140px;
+    margin-right: 140px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.well p{
+    margin-top:30px;
+}
+.span1{
+    background-color: #94ff55;
+    color: #4255ff;
+    font-size:20px;
+    font-family: Georgia;
+}

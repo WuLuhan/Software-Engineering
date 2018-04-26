@@ -1,0 +1,157 @@
+.p1{
+    weight:100%;
+    height:10%;
+    text-align: center;
+    background-color: #0f0f0f;
+    color: white;
+    font-size: xx-large;
+    padding-top:20px;
+}
+.img2{
+    weight:400px;
+    height:500px;
+    background-color: #e6fff5;
+    margin-left:140px;
+    margin-right: 140px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.p2{
+    margin-top:15%;
+    text-align: left;
+    font-size:16px;
+    font-weight: bolder;
+}
+.span1{
+    font-size:18px;
+    color: #6f80e8;
+}
+.span2{
+    font-size:18px;
+    color: #000000;
+}
+.p3{
+    width:300px;
+    height:60px;
+    background-color: #fff941;
+}
+.p4{
+    text-align: left;
+    font-size:16px;
+}
+.p3 p{
+    padding:10px;
+    font-size:24px;
+    color:red;
+}
+.img3{
+    weight:400px;
+    height:550px;
+    background-color: #000000;
+    margin-left:140px;
+    margin-right: 140px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.video{
+    margin:50px 50px;
+}
+.p5{
+    weight:120px;
+    height:455px;
+    margin-top:30px;
+    float:right;
+    color:white;
+}
+.p6{
+    weight:200px;
+    height:455px;
+    margin-top:30px;
+    float:left;
+    margin-left:30px;
+    text-align: center;
+    color: #ff01cb;
+    font-size:32px;
+}
+.img6 {
+    weight: 400px;
+    height: 500px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-color: white;
+}
+.panel-footer{
+    background-color: #0f0f0f;
+    color:white;
+    height:80px;
+}
+
+a{
+    text-decoration: none;
+}
+.container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin-top:20px;
+    box-shadow: 0 0 5px green;
+    overflow: hidden;
+    float: left;
+}
+.container .wrap {
+    position: absolute;
+    width: 4200px;
+    height: 400px;
+    z-index: 1;
+}
+.container .wrap img {
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+.container .buttons {
+    position: absolute;
+    right: 5px;
+    bottom:40px;
+    width: 150px;
+    height: 10px;
+    z-index: 2;
+}
+.container .buttons span {
+    margin-left: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+}
+.container .buttons span.on{
+    background-color: red;
+}
+.container .arrow {
+    position: absolute;
+    top: 35%;
+    color: green;
+    padding:0px 14px;
+    border-radius: 50%;
+    font-size: 50px;
+    z-index: 2;
+    display: none;
+}
+.container .arrow_left {
+    left: 10px;
+}
+.container .arrow_right {
+    right: 10px;
+}
+.container:hover .arrow {
+    display: block;
+}
+.container .arrow:hover {
+    background-color: rgba(0,0,0,0.2);
+}
